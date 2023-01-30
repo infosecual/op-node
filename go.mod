@@ -1,4 +1,4 @@
-module github.com/infosecual/op-node
+module github.com/ethereum-optimism/optimism/op-node
 
 go 1.18
 
@@ -8,7 +8,6 @@ require (
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0
 	github.com/ethereum-optimism/optimism/op-bindings v0.10.11
 	github.com/ethereum-optimism/optimism/op-chain-ops v0.10.11
-	github.com/ethereum-optimism/optimism/op-node v0.10.11
 	github.com/ethereum-optimism/optimism/op-service v0.10.11
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/golang/snappy v0.0.4
@@ -33,7 +32,6 @@ require (
 
 require (
 	github.com/VictoriaMetrics/fastcache v1.10.0 // indirect
-	github.com/allegro/bigcache v1.2.1 // indirect
 	github.com/benbjohnson/clock v1.3.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
@@ -54,7 +52,6 @@ require (
 	github.com/flynn/noise v1.0.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
-	github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20210107165309-348f09dbbbc0 // indirect
@@ -80,7 +77,6 @@ require (
 	github.com/klauspost/compress v1.15.10 // indirect
 	github.com/klauspost/cpuid/v2 v2.1.1 // indirect
 	github.com/koron/go-ssdp v0.0.3 // indirect
-	github.com/kr/text v0.2.0 // indirect
 	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
 	github.com/libp2p/go-cidranger v1.1.0 // indirect
 	github.com/libp2p/go-flow-metrics v0.1.0 // indirect
@@ -138,7 +134,6 @@ require (
 	github.com/syndtr/goleveldb v1.0.1-0.20220614013038-64ee5596c38a // indirect
 	github.com/tklauser/go-sysconf v0.3.10 // indirect
 	github.com/tklauser/numcpus v0.5.0 // indirect
-	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
 	github.com/urfave/cli/v2 v2.17.2-0.20221006022127-8f469abc00aa // indirect
 	github.com/whyrusleeping/timecache v0.0.0-20160911033111-cfcb2f1abfee // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
@@ -152,7 +147,6 @@ require (
 	golang.org/x/net v0.0.0-20220920183852-bf014ff85ad5 // indirect
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.0.0-20221013171732-95e765b1cc43 // indirect
-	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
